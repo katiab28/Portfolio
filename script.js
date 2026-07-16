@@ -17,23 +17,27 @@ navLinks.forEach(link => {
 });
 
 //gestione modale
-function openModal(videoSrc) {
+function openModal(videoUrl) {
   const modal = document.getElementById("videoModal");
-  const video = document.getElementById("projectVideo");
-  const source = document.getElementById("videoSource");
+  const iframe = document.getElementById("modalVideo");
+  //const video = document.getElementById("projectVideo");
+  //const source = document.getElementById("videoSource");
   
-  source.src = videoSrc;
-  video.load(); // aggiorna il video
+  //source.src = videoSrc;
+  iframe.src = videoUrl;
+  //video.load(); // aggiorna il video
 
   modal.style.display = "block";
 }
 
 function closeModal() {
   const modal = document.getElementById("videoModal");
-  const video = document.getElementById("projectVideo");
+  const iframe = document.getElementById("modalVideo");
+  //const video = document.getElementById("projectVideo");
 
+  iframe.src = ""; // ferma il video
   modal.style.display = "none";
-  video.pause(); // ferma il video quando chiudi
+  //video.pause(); // ferma il video quando chiudi
 }
 
 
