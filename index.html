@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>CV Online</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+<!-- HERO -->
+<header id="hero" class="hero">
+
+  <div class="name-wrapper">
+    <h1 class="title">Ciao, sono Katia Buonocore!</h1>
+    <div class="name-glow"></div>
+  </div>
+
+  <p class="subtitle">Sviluppatrice Web & Cybersecurity</p>
+
+  <p class="subtitle">Trasformo idee in applicazioni sicure e intuitive.</p>
+
+  <div class="arrow" onclick="scrollToContent()">
+    ↓
+  </div>
+</header>
+
+<!-- NAVBAR -->
+<nav id="navbar">
+  <ul>
+    <li><a href="#hero">Home</a></li>
+    <li><a href="#about">Chi sono</a></li>
+    <li><a href="#projects">Progetti</a></li>
+    <!--<li><a href="#skills">Competenze</a></li>-->
+    <li><a href="#contact">Contatti</a></li>
+  </ul>
+</nav>
+
+<!-- CONTENUTO -->
+<section id="about"><h2>Chi sono</h2>
+<div class="about-container">
+
+  <div class="about-image">
+    <img src="img/laureaMia.jpeg" alt="Foto profilo">
+  </div>
+
+
+  <div class="about-text">
+      <p>
+        Sono <strong>Katia Buonocore</strong>, laureata magistrale in Informatica con 
+        specializzazione in <strong>Sicurezza Informatica</strong> presso l'Università degli Studi di Salerno.
+      </p>
+
+      <p>
+        Il mio percorso unisce sviluppo software e cybersecurity: ho esperienza nello 
+        sviluppo di applicazioni web e nello studio di tematiche come 
+        <strong>ethical hacking, penetration testing e analisi delle vulnerabilità</strong>.
+      </p>
+
+      <p>
+        Ho partecipato all’App Challenge 2024, conquistando il podio con un’app sviluppata
+        in collaborazione con LinearIT, un’esperienza che mi ha permesso di mettere 
+        alla prova le mie competenze tecniche in un contesto reale e collaborativo.
+      </p>
+
+      <p>
+        Oltre alle competenze tecniche, possiedo buone capacità organizzative e comunicative
+        sviluppate attraverso progetti universitari, collaborando alla gestione e al coordinamento delle attività.
+      </p>
+
+      <p>
+        Le mie passioni spaziano tra disegno, pittura, musica e cucito, attività che stimolano
+        la creatività e la precisione. Lo sport e le esperienze di viaggio hanno invece contribuito 
+        a rafforzare la mia capacità di adattamento e il lavoro di squadra, abituandomi a 
+        contesti diversi e dinamici.
+      </p>
+
+      <p>
+        Mi interessa lavorare nello sviluppo di applicazioni sicure, con particolare 
+        attenzione alla <strong>protezione dei dati e alla sicurezza delle applicazioni</strong>.
+      </p>
+
+      <div class="skills">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+        <span>Java</span>
+        <span>Python</span>
+        <span>SQL</span>
+        <span>C#</span>
+        <span>C</span>
+        <span>C++</span>
+        <span>MongoDB</span>
+        <span>Flutter</span>
+        <span>SQLite</span>
+        <span>Ubuntu</span>
+        <span>KaliLinux</span>
+        <span>Bootstrap</span>
+        <span>Unity</span>
+        <span>AndroidStudio</span>
+        <span>Vuforia</span>
+        <span>Flask</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--PROGETTI-->
+<section id="projects">
+  <h2>Progetti</h2>
+
+  <div class="projects-grid">
+
+    <div class="project-card">
+
+      <div class="project-image">
+        <img src="img/p1.png" alt="Progetto 1">
+      </div>
+      
+      <div class="project-content">
+         <h3>School Math</h3>
+
+        <p> 
+          Applicazione in realtà aumentata per la comprensione di addizione e sottrazione.
+          Inquadrando tessere numeriche tramite fotocamera, vengono visualizzati numeri 
+          e regoli in 3D; l’utente può selezionare l’operazione e visualizzarne il risultato
+          in modo interattivo.
+        </p>
+      
+        <div class="project-tech">
+          <span>Unity</span>
+          <span>C#</span>
+          <span>Vuforia</span>
+        </div>
+
+        <div class="project-links">
+          <a href="https://drive.google.com/file/d/1M7zU-thTMsqh1XwtcNeDwdVoDpAaPD-k/view?usp=sharing" target="_blank">Repository</a>
+          <a href="presentazioniProgetti/SchoolMath.pptx">Presentazione</a>
+          <button class="video-btn" onclick="openModal('presentazioniProgetti/demo_schoolmath.mp4')"> ▶ Demo</button>
+        </div>
+          
+      </div>
+    </div>
+
+    <div class="project-card">
+
+      <div class="project-image">
+        <img src="img/p2.png" alt="Progetto 2">
+      </div>
+
+      <div class="project-content">
+        <h3>Music Console</h3>
+
+        <p>
+          Sviluppo di una piattaforma e-commerce musicale che consente l’acquisto di brani.
+          Il progetto include sia l’area utente sia quella amministratore, con funzionalità 
+          di gestione prodotti e ordini. Sono state inoltre svolte attività di testing per 
+          garantire il corretto funzionamento del sistema.
+        </p>
+
+        <div class="project-tech">
+          <span>Java</span>
+          <span>Apache Tomcat</span>
+          <span>MySQL</span>
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>JavaScript</span>
+        </div>
+
+        <div class="project-links">
+          <a href="https://drive.google.com/drive/folders/19AtQjXTr261iubODWJ4uN7al_-rzhCLF?usp=drive_link" target="_blank">Repository</a>
+          <a href="presentazioniProgetti/PresentazioneMusicConsole.pdf" target="_blank">Presentazione</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card">
+
+      <div class="project-image">
+        <img src="img/p3.png" alt="Progetto 3">
+      </div>
+      
+      <div class="project-content">
+         <h3>DefNet</h3>
+
+        <p> 
+          Dispositivo hardware basato su Raspberry Pi 4 B progettato come sistema di 
+          intrusion detection e prevention, portatile e pensato per garantire una 
+          connessione sicura. Include un’app mobile per il controllo della rete, blocco 
+          pubblicità, parental control e notifiche in caso di attacchi.
+        </p>
+     
+        <div class="project-tech">
+          <span>Python</span>
+          <span>Flutter</span>
+          <span>SQLite</span>
+          <span>AdGuard Home</span> <!--controllo parentale e ad block-->
+          <span>OpenWrt</span> <!--firmware del router-->
+          <span>FastAPI</span> <!--per lanciare il microservizio backend-->
+        </div>
+
+        <div class="project-links">
+          <a href="https://github.com/DefNet-Enterprise-Mobile-Application/EMAD2024-25-_DefNet-Front-End.git"  target="_blank">Repository</a>
+          <a href="presentazioniProgetti/DefNet.pdf"  target="_blank">Presentazione</a>
+          <button class="video-btn" onclick="openModal('presentazioniProgetti/demo_DefNet.mp4')"> ▶ Demo</button>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="project-card">
+
+      <div class="project-image">
+        <img src="img/p4.jpg" alt="Progetto 4">
+      </div>
+      
+      <div class="project-content">
+        <h3>Exploring Touch Keystroke Dynamics for Soft Biometrics</h3>
+
+        <p> 
+         Analisi di un dataset sul comportamento degli utenti su desktop, tablet e 
+         smartphone durante diverse attività. Sono state estratte feature significative 
+         e addestrati vari modelli di machine learning, valutandone le prestazioni 
+         per individuare il più efficace.
+        </p>
+     
+        <div class="project-tech">
+          <span>Python</span>
+          <span>Visual Studio Code</span>
+        </div>
+
+        <div class="project-links">
+          <a href="https://drive.google.com/file/d/17PqzpnKQnsYiLcapSV_HUM9BTXhZvJsG/view?usp=sharing" target="_blank">Repository</a>
+          <a href="presentazioniProgetti/presentazioneBiometria.pdf" target="_blank">Presentazione</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card">
+
+      <div class="project-image">
+        <img src="img/p5.jpg" alt="Progetto 5">
+      </div>
+      
+      <div class="project-content">
+        <h3>CinePlus</h3>
+
+        <p> 
+         Sviluppo di un sito vetrina per film e serie TV con sistema di autenticazione 
+         utenti. Include funzionalità di ricerca avanzata, gestione preferiti e un’area 
+         amministratore per l’aggiunta, modifica e rimozione dei contenuti.
+        </p>
+     
+        <div class="project-tech">
+          <span>Python</span>
+          <span>MongoDB</span>
+          <span>Flask</span>
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>JavaScript</span>
+          <span>Bootstrap</span>
+        </div>
+
+        <div class="project-links">
+          <a href="https://drive.google.com/drive/folders/1a60FCTD1udan0O4i2OtXR7WdAibcKfqD?usp=drive_link" target="_blank">Repository</a>
+          <a href="presentazioniProgetti/CinePlus.pdf" target="_blank">Presentazione</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card">
+
+      <div class="project-image">
+        <img src="img/p6.png" alt="Progetto 6">
+      </div>
+      
+      <div class="project-content">
+        <h3>CodeInsight</h3>
+
+        <p> 
+         Simulazione di un esperimento per valutare l’efficacia di diverse tecniche di 
+         comprensione del codice: commenti umani, commenti generati da AI e assistente 
+         virtuale. È stata sviluppata una piattaforma che mostrava codice (Java e Rust) 
+         con tempo limitato, seguita da domande di verifica e questionari finali per 
+         confrontare i risultati.
+        </p>
+     
+        <div class="project-tech">
+          <span>Python</span>
+          <span>SQLite</span>
+          <span>Flask</span>
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>JavaScript</span>
+        </div>
+
+        <div class="project-links">
+          <a href="https://drive.google.com/file/d/1t8TYTAXNm7YZsKgqZV-38P31EfxHKg_V/view?usp=sharing" target="_blank">Repository</a>
+          <a href="presentazioniProgetti/paperSystemDesign.pdf" target="_blank">Documentazione</a>
+          <button class="video-btn" onclick="openModal('presentazioniProgetti/demo_CodeInsight.mp4')"> ▶ Demo</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card">
+
+      <div class="project-image">
+        <img src="img/p7.png" alt="Progetto 7">
+      </div>
+      
+      <div class="project-content">
+        <h3>Automated Fuzzing for Vulnerability Discovery</h3>
+
+        <p> 
+         Sviluppo di un sistema di fuzzing per generare input casuali e individuare crash 
+         in programmi C. Utilizzate diverse tecniche di generazione e mutazione degli input:
+         una basata sulla creazione da zero, una sulla modifica dei byte esistenti e una specifica 
+         per input XML e Json. Analisi effettuata tramite Address Sanitizer per identificare 
+         e classificare le vulnerabilità. Il sistema minimizza gli input responsabili dei crash 
+         e produce un report HTML dettagliato.
+        </p>
+     
+        <div class="project-tech">
+          <span>Python</span>
+          <span>Kali Linux</span>
+          <span>C</span>
+        </div>
+
+        <div class="project-links">
+          <a href="https://drive.google.com/file/d/1OC14mxLFD6KwK6slu-SVu8g3ZqJEFn8e/view?usp=sharing" target="_blank">Repository</a>
+          <a href="presentazioniProgetti/PresentazioneFuzzing.pdf" target="_blank">Presentazione</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!--<section id="skills"><h2>Esperienze</h2></section>-->
+
+<!--CONTATTI-->
+<section id="contact">
+  <h2>Contatti</h2>
+
+  <p class="contact-subtitle">
+    Sei interessato al mio profilo o vuoi conoscermi meglio? Contattami 👇
+  </p>
+
+  <div class="contact-container">
+
+    <a href="mailto:buonocorekatia@gmail.com" class="contact-card email">
+      <i class="fas fa-envelope"></i>
+      <span>Email</span>
+    </a>
+
+    <a href="https://github.com/katiab28" target="_blank" class="contact-card github">
+      <i class="fab fa-github"></i>
+      <span>GitHub</span>
+    </a>
+
+    <a href="https://www.linkedin.com/in/katia-buonocore-640659240" target="_blank" class="contact-card linkedin">
+      <i class="fab fa-linkedin"></i>
+      <span>LinkedIn</span>
+    </a>
+
+    <a href="cv/KatiaBuonocoreCV.pdf" target="_blank" class="contact-card cv">
+      <i class="fas fa-file-alt"></i>
+      <span>Scarica CV</span>
+    </a>
+
+  </div>
+</section>
+
+<script src="script.js"></script>
+
+<div id="videoModal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal()">&times;</span>
+            
+      <video id="projectVideo" controls>
+        <source id="videoSource" type="video/mp4">
+      </video>
+    </div>
+  </div>
+
+</body>
+</html>
